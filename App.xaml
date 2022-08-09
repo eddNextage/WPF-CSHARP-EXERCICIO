@@ -11,7 +11,7 @@
                 <ResourceDictionary Source="/Styles/BotoesLaterais.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <DataTemplate DataType="{x:Type viewModel:CadastroProdutoViewModel}">
+            <DataTemplate DataType="{x:Type viewModel:ProdutoViewModel}">
                 <view:CadastroProduto/>
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:VenderViewModel}">

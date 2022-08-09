@@ -15,12 +15,12 @@ namespace WpfApp3.MVVM.ViewModel
     {
         public override bool CanExecute(object parameter)
         {
-            return parameter is CadastroProdutoViewModel;
+            return parameter is ProdutoViewModel;
         }
 
         public override void Execute(object parameter)
         {
-            var viewModel = (CadastroProdutoViewModel)parameter;
+            var viewModel = (ProdutoViewModel)parameter;
             var produto = new Model.Produto();
             long maxId = 0;
             if (viewModel.Produtos.Any())

@@ -1,41 +1,47 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using WpfApp3.MVVM.crud;
 using WpfApp3.MVVM.Model;
 
 namespace WpfApp3.MVVM.ViewModel
 {
-    class CadastroProdutoViewModel : ObservableCollection<Produto>
+    class ProdutoViewModel : ObservableCollection<Produto>
     {
-        public Produto Produto { get; internal set; }
-        public ObservableCollection<Produto> Produtos { get; private set; }
-
         private Produto _produtoSelecionado;
+
+        public NovoProduto Novo { get; private set; } = new NovoProduto();
+
+        public DeletarProduto Deletar { get; private set; } = new DeletarProduto();
+
+        public EditarProduto Editar { get; private set; } = new EditarProduto();
+
+        private Produto _produtoEdit = new Produto();
+
+        public Produto Produto { get; internal set; }
+
+        public ObservableCollection<Produto> Produtos { get; private set; }       
+
         public Produto ProdutoSelecionado
         {
             get { return _produtoSelecionado; }
-            set {_produtoSelecionado = value; }
+            set
+            {
+                _produtoSelecionado = value;
+                Editar.RaiseCanExecuteChanged();
+            }
         }
-        
-        private Produto _produtoEdit = new Produto();
+                
         public Produto ProdutoEdit
         {
             get { return _produtoEdit; }
             set {_produtoEdit = value; }
         }
 
-
-        public NovoProduto Novo { get; private set; } = new NovoProduto();
-
-        public DeletarProduto Deletar { get; private set; } = new DeletarProduto();
-
-
-        public CadastroProdutoViewModel()
+        public ProdutoViewModel()
         {
             Produtos = new ObservableCollection<Produto>();
             PreparaProdutoCollection();
@@ -61,6 +67,5 @@ namespace WpfApp3.MVVM.ViewModel
                 ProdutoSelecionado = Produtos.FirstOrDefault();
             }
         }
-
     }
 }

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WpfApp3.MVVM.Model
 {
-    public class Produto: INotifyPropertyChanged
+    public class Produto: INotifyPropertyChanged, ICloneable, BaseNotifyPropertyChanged
     {
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -20,6 +16,10 @@ namespace WpfApp3.MVVM.Model
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nomePropriedade));
         }
 
+        public object Clone()
+        {
+            return this.MemberwiseClone();
+        }
 
         private long _id;
         private string _nome;

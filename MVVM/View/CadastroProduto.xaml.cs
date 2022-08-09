@@ -26,7 +26,7 @@ namespace WpfApp3.MVVM.View
         public CadastroProduto()
         {
             InitializeComponent();
-            DataContext = new ViewModel.CadastroProdutoViewModel();
+            DataContext = new ViewModel.ProdutoViewModel();
         }
 
         public void salvar(object sender, RoutedEventArgs e)
