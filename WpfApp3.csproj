@@ -113,6 +113,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MVVM\View\CadastroPessoa1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\CadastroProduto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -132,11 +136,22 @@
     <Compile Include="MVVM\Model\Pedido.cs" />
     <Compile Include="MVVM\Model\Pessoa.cs" />
     <Compile Include="MVVM\Model\Produto.cs" />
+<<<<<<< HEAD
     <Compile Include="MVVM\ViewModel\ProdutoViewModel.cs" />
     <Compile Include="MVVM\CRUD\DeletarProduto.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
     <Compile Include="MVVM\CRUD\NovoProduto.cs" />
+=======
+    <Compile Include="MVVM\ViewModel\CadastroPessoaViewModel1.cs" />
+    <Compile Include="MVVM\ViewModel\CadastroProdutoViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\NovaPessoa.cs" />
+    <Compile Include="MVVM\ViewModel\NovoProduto.cs" />
+>>>>>>> 753de2a893071bfdc8416a5f2537b0ad21e26d27
     <Compile Include="MVVM\ViewModel\VenderViewModel.cs" />
+    <Compile Include="MVVM\View\CadastroPessoa1.xaml.cs">
+      <DependentUpon>CadastroPessoa1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MVVM\View\CadastroProduto.xaml.cs">
       <DependentUpon>CadastroProduto.xaml</DependentUpon>
     </Compile>
@@ -161,6 +176,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="pessoa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="produto.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+<<<<<<< HEAD
     "Nome": "sdfasf",
     "Codigo": 4,
     "Valor": 0
@@ -28,5 +29,16 @@
     "Nome": "aaaa",
     "Codigo": 4,
     "Valor": 0
+=======
+    "Nome": "teste",
+    "Codigo": 1,
+    "Valor": 10
+  },
+  {
+    "Id": 2,
+    "Nome": "Misael",
+    "Codigo": 2,
+    "Valor": 10
+>>>>>>> 753de2a893071bfdc8416a5f2537b0ad21e26d27
   }
 ]

@@ -4,11 +4,16 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\cassi.fr\Documents\Projetos Teste\WPF-CSHARP-EXERCICIO\obj\Debug\
+=======
+C:\Users\cassi.mo\source\repos\WPF-CSHARP-EXERCICIO\obj\Debug\
+>>>>>>> 753de2a893071bfdc8416a5f2537b0ad21e26d27
 WpfApp3
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\cassi.fr\Documents\Projetos Teste\WPF-CSHARP-EXERCICIO\App.xaml
 42115739036
 1819034883
@@ -17,4 +22,14 @@ C:\Users\cassi.fr\Documents\Projetos Teste\WPF-CSHARP-EXERCICIO\App.xaml
 MainWindow.xaml;MVVM\View\CadastroProduto.xaml;MVVM\View\VenderView.xaml;Styles\BotoesLaterais.xaml;
 
 False
+=======
+C:\Users\cassi.mo\source\repos\WPF-CSHARP-EXERCICIO\App.xaml
+5-709009634
+1819034883
+24-984028255
+28-1230952688
+MainWindow.xaml;MVVM\View\CadastroPessoa1.xaml;MVVM\View\CadastroProduto.xaml;MVVM\View\VenderView.xaml;Styles\BotoesLaterais.xaml;
+
+True
+>>>>>>> 753de2a893071bfdc8416a5f2537b0ad21e26d27
 
