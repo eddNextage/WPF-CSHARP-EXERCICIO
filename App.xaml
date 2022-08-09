@@ -17,6 +17,9 @@
             <DataTemplate DataType="{x:Type viewModel:VenderViewModel}">
                 <view:VenderView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CadastroPessoaViewModel}">
+                <view:CadastrarPessoa/>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
