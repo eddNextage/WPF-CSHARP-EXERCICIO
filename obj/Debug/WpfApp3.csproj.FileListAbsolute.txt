@@ -161,3 +161,4 @@ C:\Users\cassi.ms\Desktop\git2\WPF-CSHARP-EXERCICIO\obj\Debug\WpfApp3.csproj.Cor
 C:\Users\cassi.ms\Desktop\git2\WPF-CSHARP-EXERCICIO\obj\Debug\WpfApp3.csproj.CopyComplete
 C:\Users\cassi.ms\Desktop\git2\WPF-CSHARP-EXERCICIO\obj\Debug\WpfApp3.exe
 C:\Users\cassi.ms\Desktop\git2\WPF-CSHARP-EXERCICIO\obj\Debug\WpfApp3.pdb
+C:\Users\cassi.ms\Desktop\git2\WPF-CSHARP-EXERCICIO\obj\Debug\WpfApp3_Content.g.cs
