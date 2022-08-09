@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\cassi.mo\source\repos\WpfApp3\obj\Debug\
+C:\Users\cassi.mo\source\repos\WPF-CSHARP-EXERCICIO\obj\Debug\
 WpfApp3
 none
 false
 DEBUG;TRACE
-C:\Users\cassi.mo\source\repos\WpfApp3\App.xaml
-42115739036
+C:\Users\cassi.mo\source\repos\WPF-CSHARP-EXERCICIO\App.xaml
+5-709009634
+1819034883
+24-984028255
+28-1230952688
+MainWindow.xaml;MVVM\View\CadastroPessoa1.xaml;MVVM\View\CadastroProduto.xaml;MVVM\View\VenderView.xaml;Styles\BotoesLaterais.xaml;
 
-211462973977
-28133998474
-MainWindow.xaml;MVVM\View\CadastroProduto.xaml;MVVM\View\VenderView.xaml;Styles\BotoesLaterais.xaml;
-
-False
+True
 
