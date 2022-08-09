@@ -32,6 +32,9 @@ namespace WpfApp3.MVVM.ViewModel
 
         public NovoProduto Novo { get; private set; } = new NovoProduto();
 
+        public DeletarProduto Deletar { get; private set; } = new DeletarProduto();
+
+
         public CadastroProdutoViewModel()
         {
             Produtos = new ObservableCollection<Produto>();
